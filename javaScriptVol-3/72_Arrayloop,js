@@ -1,0 +1,20 @@
+console.log("for loop")
+let arr=['minal',2,3]
+for (let i=0; i<arr.length;i++){
+    console.log(arr[i])
+}
+let vuv=[2,3,4,5,6]
+vuv.forEach((ab)=>{
+    console.log(ab*ab)
+})
+let a='minal'
+console.log(Array.from(a))
+console.log("from is used to conver html collection to array, however if u want to convert string or numbmer or anything into array ,you need to use Array.from")
+
+let loop=[1,2,3,4,5,6,88,99,100]
+for(let a of loop){
+    console.log(a)
+}
+for(let b in loop){
+    console.log(b)
+}

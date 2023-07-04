@@ -1,0 +1,116 @@
+html,body{
+    margin: 0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    align-content: center;
+    background-image:url("nature.jpg");
+    background-attachment:fixed;
+    background-repeat: none;
+    background-position: center;
+    background-size:cover;
+}
+
+  
+.box{
+    display:flex;
+    justify-content:center;
+ align-items:center;
+    width:100vw;
+    height:100vh;
+    background:transparent;
+    gap:1.5em;
+
+}
+
+.card{
+   font-size:6rem;
+   color:white;
+   background:blue;
+   width:300px;
+   height:300px;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   background:rgba(0,0,0,0.3);
+   backdrop-filter: blur(1px);
+   border:0px solid;
+   border-radius:50px;
+   font-family: "roboto condensed";
+}
+.four{
+ margin-top:200px;
+   height:14%;
+    border-radius:15px;
+    width:200px;
+    
+}
+.three, .four{
+    color:lightblue;
+}
+.four{
+    font-size:4.5rem;
+}
+.colon{
+    color:white;
+    font-size:10rem;
+}
+@media (max-width:757px){
+    .box{
+        flex-direction:column;
+    margin-left:-0%;
+    
+    
+    }
+    .card{
+        font-size:4rem;
+        width:150px;
+        height:150px;
+    }
+    .colon{
+        display:none;
+    }
+    .four{
+       position:fixed;
+left:450px;
+top: 230px;
+         border-radius:15px;
+         width:100px;
+         height:150px;
+         font-size:3rem;
+    }
+   
+}
+@media (max-width:585px){
+    .four{
+        lefT:360px;
+    }
+}
+@media (max-width:470px){
+    .four{
+        left:309px;
+    }
+}
+@media (max-width:422px){
+    .box{
+       margin-left:-100px;
+    }
+    .four{
+        left:200px;
+    }
+}
+@media (max-width:422px){
+.box{
+    margin-left:0;
+
+}
+.four{
+    font-size:2rem;
+    height:40px;
+    width:80px;
+    top:60%;
+    left:150px;
+}
+}

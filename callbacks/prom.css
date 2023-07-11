@@ -1,0 +1,52 @@
+body,html{
+    background:black;
+    margin:0%;
+    padding:0%;
+}
+.nav{
+    background:gray;
+    display:flex;
+    width:100%;
+justify-content:space-around;
+}
+
+.head{
+    font-size:1.2rem;
+  
+}
+.se{
+    position:absolute;
+ margin-top:12%;
+margin-left:-11%;
+}
+.se ul  {
+    display:flex;
+    gap:1em;
+    
+}  
+.se ul li a{
+    font-size:0.8rem;
+    text-decoration:none;
+    color:white;
+}
+.one{
+    color:white;
+    display:flex;
+    font-size:0.5rem;
+    justify-content: space-around;
+    margin-top:10%;
+
+}
+.bpx{
+    background:gray;
+   
+    padding:0.2em;
+    height:100px;
+}
+.ano{
+    color:white;
+    display:flex;
+    justify-content: center;
+   margin-top:20px;
+    background:gray;
+}
